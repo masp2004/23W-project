@@ -14,7 +14,7 @@ import java.util.*;
 
 public class EllersGen {
 
-    private static final int COLS = Math.floorDiv(Maze.WIDTH, Maze.W);
+    private static final int COLS = Math.floorDiv(Maze.COLUMNS, Maze.CELL_SIZE);
     private final List<Cell> grid;
     private final DisjointSets disjointSet = new DisjointSets();
     private List<Cell> currentCol;

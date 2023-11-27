@@ -40,7 +40,7 @@ public class MazeGridPanel extends JPanel {
     @Override
     public Dimension getPreferredSize() {
         // +1 pixel on width and height so bottom and right borders can be drawn.
-        return new Dimension(Maze.WIDTH + 1, Maze.HEIGHT + 1);
+        return new Dimension(Maze.COLUMNS + 1, Maze.ROWS + 1);
     }
 
 

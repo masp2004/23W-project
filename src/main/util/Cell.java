@@ -90,42 +90,42 @@ public class Cell {
     }
 
     public void draw(Graphics g) {
-        int x2 = x * Maze.W;
-        int y2 = y * Maze.W;
+        int x2 = x * Maze.CELL_SIZE;
+        int y2 = y * Maze.CELL_SIZE;
 
         if (visited) {
             g.setColor(Color.MAGENTA);
-            g.fillRect(x2, y2, Maze.W, Maze.W);
+            g.fillRect(x2, y2, Maze.CELL_SIZE, Maze.CELL_SIZE);
         }
 
         if (path) {
             g.setColor(Color.BLUE);
-            g.fillRect(x2, y2, Maze.W, Maze.W);
+            g.fillRect(x2, y2, Maze.CELL_SIZE, Maze.CELL_SIZE);
         } else if (deadEnd) {
             g.setColor(Color.RED);
-            g.fillRect(x2, y2, Maze.W, Maze.W);
+            g.fillRect(x2, y2, Maze.CELL_SIZE, Maze.CELL_SIZE);
         }
 
         g.setColor(Color.WHITE);
         if (walls[0]) {
-            g.drawLine(x2, y2, x2 + Maze.W, y2);
+            g.drawLine(x2, y2, x2 + Maze.CELL_SIZE, y2);
         }
         if (walls[1]) {
-            g.drawLine(x2 + Maze.W, y2, x2 + Maze.W, y2 + Maze.W);
+            g.drawLine(x2 + Maze.CELL_SIZE, y2, x2 + Maze.CELL_SIZE, y2 + Maze.CELL_SIZE);
         }
         if (walls[2]) {
-            g.drawLine(x2 + Maze.W, y2 + Maze.W, x2, y2 + Maze.W);
+            g.drawLine(x2 + Maze.CELL_SIZE, y2 + Maze.CELL_SIZE, x2, y2 + Maze.CELL_SIZE);
         }
         if (walls[3]) {
-            g.drawLine(x2, y2 + Maze.W, x2, y2);
+            g.drawLine(x2, y2 + Maze.CELL_SIZE, x2, y2);
         }
     }
 
     public void displayAsColor(Graphics g, Color color) {
-        int x2 = x * Maze.W;
-        int y2 = y * Maze.W;
+        int x2 = x * Maze.CELL_SIZE;
+        int y2 = y * Maze.CELL_SIZE;
         g.setColor(color);
-        g.fillRect(x2, y2, Maze.W, Maze.W);
+        g.fillRect(x2, y2, Maze.CELL_SIZE, Maze.CELL_SIZE);
     }
 
     public void removeWalls(Cell next) {

@@ -1,47 +1,49 @@
 
+v
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(Àş¿Ê8Ÿ¥ôƒÁ1
+J
+java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ8Ÿ¥ôƒÁ1
+m
+java:S1104"QMake speed a static final constant or non-public and provide accessors if needed.(¾ÔŠ8 ¥ôƒÁ1
+r
+java:S1104"UMake generated a static final constant or non-public and provide accessors if needed.(Å¹˜Š8 ¥ôƒÁ1
 o
-java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(Àş¿Ê
-C
-java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ
-f
-java:S1104"QMake speed a static final constant or non-public and provide accessors if needed.(¾ÔŠ
-k
-java:S1104"UMake generated a static final constant or non-public and provide accessors if needed.(Å¹˜Š
-h
-java:S1104"RMake solved a static final constant or non-public and provide accessors if needed.(Å¹˜Š
-@
-java:S1444"+Make this "public static speed" field final(¾ÔŠ
-E
-java:S1444"/Make this "public static generated" field final(Å¹˜Š
-B
-java:S1444",Make this "public static solved" field final(Å¹˜Š
-:
-java:S1659"$Declare "solved" on a separate line.(Å¹˜Š
-8
-java:S1659""Declare "rows" on a separate line.(èÃá¯
-l
-java:S1149S"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Àş¿Ê
-_
-java:S32522"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´
-[
-java:S3252O"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Øì¶ê
-`
-java:S3252P"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Éêø§ıÿÿÿÿ
-`
-java:S3252Q"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Â±Ìşÿÿÿÿ
-7
-java:S1116k"Remove this empty statement.(Åñ­õşÿÿÿÿ
-H
-java:S1602™",Remove useless curly braces around statement(ú’õ™üÿÿÿÿ
-M
-java:S2696š"6Make the enclosing method "static" or remove this set.(ê¶´
-C
-java:S1602",Remove useless curly braces around statement(ÄÉùÜ
-M
-java:S2696"6Make the enclosing method "static" or remove this set.(İÎŸ«
+java:S1104"RMake solved a static final constant or non-public and provide accessors if needed.(Å¹˜Š8 ¥ôƒÁ1
+G
+java:S1444"+Make this "public static speed" field final(¾ÔŠ8 ¥ôƒÁ1
 L
-java:S2696¢"6Make the enclosing method "static" or remove this set.(«“
-M
-java:S2696£"6Make the enclosing method "static" or remove this set.(•ƒôÁ
-R
-java:S2696¤"6Make the enclosing method "static" or remove this set.(ºßøŞúÿÿÿÿ
+java:S1444"/Make this "public static generated" field final(Å¹˜Š8 ¥ôƒÁ1
+I
+java:S1444",Make this "public static solved" field final(Å¹˜Š8 ¥ôƒÁ1
+i
+java:S1845"LRename field "rows" to prevent any misunderstanding/clash with field "ROWS".(èÃá¯8‹æ†„Á1
+A
+java:S1659"$Declare "solved" on a separate line.(Å¹˜Š8£¥ôƒÁ1
+?
+java:S1659""Declare "rows" on a separate line.(èÃá¯8£¥ôƒÁ1
+s
+java:S1149S"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Àş¿Ê8¤¥ôƒÁ1
+f
+java:S32522"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8§¥ôƒÁ1
+b
+java:S3252O"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Øì¶ê8©¥ôƒÁ1
+g
+java:S3252P"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Éêø§ıÿÿÿÿ8©¥ôƒÁ1
+g
+java:S3252Q"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Â±Ìşÿÿÿÿ8©¥ôƒÁ1
+>
+java:S1116k"Remove this empty statement.(Åñ­õşÿÿÿÿ8«¥ôƒÁ1
+O
+java:S1602™",Remove useless curly braces around statement(ú’õ™üÿÿÿÿ8¬¥ôƒÁ1
+T
+java:S2696š"6Make the enclosing method "static" or remove this set.(ê¶´8¬¥ôƒÁ1
+J
+java:S1602",Remove useless curly braces around statement(ÄÉùÜ8¬¥ôƒÁ1
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(İÎŸ«8¬¥ôƒÁ1
+S
+java:S2696¢"6Make the enclosing method "static" or remove this set.(«“8¬¥ôƒÁ1
+T
+java:S2696£"6Make the enclosing method "static" or remove this set.(•ƒôÁ8¬¥ôƒÁ1
+Y
+java:S2696¤"6Make the enclosing method "static" or remove this set.(ºßøŞúÿÿÿÿ8¬¥ôƒÁ1

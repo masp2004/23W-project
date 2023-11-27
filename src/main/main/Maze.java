@@ -7,9 +7,9 @@ import java.util.Hashtable;
 
 public class Maze {
 
-    public static final int WIDTH = 800;
-    public static final int HEIGHT = WIDTH; // best to keep these the same. variable is only created for readability.
-    public static final int W = 20;
+    public static final int COLUMNS = 800;
+    public static final int ROWS = COLUMNS; // best to keep these the same. variable is only created for readability.
+    public static final int CELL_SIZE = 20;
     private static final String[] GENERATION_METHODS = {"0. Aldous-Broder", "1. Binary Tree",
             "2. DFS", "3. Eller's", "4. Growing Forest", "5. Growing Tree", "6. Houston's",
             "7. Hunt & Kill", "8. Kruskal's", "9. Prim's", "10. Quad-directional DFS", "11. Sidewinder",
@@ -20,7 +20,7 @@ public class Maze {
     private int cols, rows;
 
     public Maze() {
-        cols = Math.floorDiv(WIDTH, W);
+        cols = Math.floorDiv(COLUMNS, CELL_SIZE);
         rows = cols;
 
         EventQueue.invokeLater(new Runnable() {
@@ -54,7 +54,7 @@ public class Maze {
 
         JPanel mazeBorder = new JPanel();
         final int BORDER_SIZE = 20;
-        mazeBorder.setBounds(0, 0, WIDTH + BORDER_SIZE, HEIGHT + BORDER_SIZE);
+        mazeBorder.setBounds(0, 0, COLUMNS + BORDER_SIZE, ROWS + BORDER_SIZE);
         mazeBorder.setBackground(Color.BLACK);
         mazeBorder.setBorder(BorderFactory.createEmptyBorder(BORDER_SIZE, BORDER_SIZE, BORDER_SIZE, BORDER_SIZE));
 
