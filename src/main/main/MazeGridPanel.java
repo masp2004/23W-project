@@ -18,6 +18,17 @@ public class MazeGridPanel extends JPanel {
     private final List<Cell> grid = new ArrayList<Cell>();
     private List<Cell> currentCells = new ArrayList<Cell>();
 
+
+    /*@
+        @ requires rows > 0 && cols > 0;
+        @ ensures grid.size() == rows * cols;
+     @*/
+    /**
+     * Creates a new MazeGridPanel with the specified number of rows and columns.
+     *
+     * @param rows the number of rows in the grid
+     * @param cols the number of columns in the grid
+     */
     public MazeGridPanel(int rows, int cols) {
         for (int x = 0; x < rows; x++) {
             for (int y = 0; y < cols; y++) {
@@ -32,6 +43,15 @@ public class MazeGridPanel extends JPanel {
         return new Dimension(Maze.WIDTH + 1, Maze.HEIGHT + 1);
     }
 
+
+    /*@
+        @ requires index >= 0 && index <= 14;
+        @ ensures \old(grid) != grid;
+     @*/
+    /**
+     * Generates the maze using the specified algorithm.
+     * @param index
+     */
     public void generate(int index) {
         // switch statement for gen method read from combobox in Maze.java
         switch (index) {
@@ -88,6 +108,15 @@ public class MazeGridPanel extends JPanel {
         }
     }
 
+
+    /*@
+        @ requires index >= 0 && index <= 3;
+        @ ensures \old(grid) != grid;
+     @*/
+    /**
+     * Solves the maze using the specified algorithm.
+     * @param index
+     */
     public void solve(int index) {
         switch (index) {
             case 0:
@@ -108,6 +137,13 @@ public class MazeGridPanel extends JPanel {
         }
     }
 
+
+    /*@
+        @ requires \old(grid) != grid;
+     @*/
+    /**
+     * Resets the maze to its original state.
+     */
     public void resetSolution() {
         for (Cell c : grid) {
             c.setDeadEnd(false);
@@ -118,6 +154,15 @@ public class MazeGridPanel extends JPanel {
         repaint();
     }
 
+
+    /*@
+        @ requires current != null;
+        @ ensures \old(current) != current;
+     @*/
+    /**
+     * Sets the current cell to the specified cell.
+     * @param current
+     */
     public void setCurrent(Cell current) {
         if (currentCells.size() == 0) {
             currentCells.add(current);
@@ -126,6 +171,15 @@ public class MazeGridPanel extends JPanel {
         }
     }
 
+
+    /*@
+        @ requires currentCells != null;
+        @ ensures \old(currentCells) != currentCells;
+     @*/
+    /**
+     * Sets the current cells to the specified list of cells.
+     * @param currentCells
+     */
     public void setCurrentCells(List<Cell> currentCells) {
         this.currentCells = currentCells;
     }

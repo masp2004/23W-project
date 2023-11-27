@@ -1,0 +1,65 @@
+
+p
+java:S2293­"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ
+p
+java:S2293Ë"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ
+p
+java:S2293Ü"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ
+u
+java:S2293ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¶µŞıÿÿÿÿ
+u
+java:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¶µŞıÿÿÿÿ
+F
+java:S1066´"/Merge this if statement with the enclosing one.(‹ˆÁ•
+K
+java:S1066µ"/Merge this if statement with the enclosing one.(±ó¦°ıÿÿÿÿ
+F
+java:S1066¶"/Merge this if statement with the enclosing one.(õÌ¸Î
+F
+java:S1066·"/Merge this if statement with the enclosing one.(Å” Ä
+F
+java:S1066Ò"/Merge this if statement with the enclosing one.(°×àú
+K
+java:S1066Ó"/Merge this if statement with the enclosing one.(–¤™íùÿÿÿÿ
+K
+java:S1066Ô"/Merge this if statement with the enclosing one.(¤Ÿ×ºùÿÿÿÿ
+E
+java:S1066Õ"/Merge this if statement with the enclosing one.(éÙW
+F
+java:S1066ä"/Merge this if statement with the enclosing one.(´£É
+K
+java:S1066è"/Merge this if statement with the enclosing one.(üùØ·ÿÿÿÿÿ
+F
+java:S1066ì"/Merge this if statement with the enclosing one.(Ÿñá–
+K
+java:S1066ğ"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ
+K
+java:S1066€"/Merge this if statement with the enclosing one.(«€°ıÿÿÿÿ
+F
+java:S1066"/Merge this if statement with the enclosing one.(´£É
+K
+java:S1066†"/Merge this if statement with the enclosing one.(Œ³³ûÿÿÿÿ
+K
+java:S1066‡"/Merge this if statement with the enclosing one.(üùØ·ÿÿÿÿÿ
+K
+java:S1066Œ"/Merge this if statement with the enclosing one.(æè‚¥ûÿÿÿÿ
+F
+java:S1066"/Merge this if statement with the enclosing one.(Ÿñá–
+F
+java:S1066’"/Merge this if statement with the enclosing one.(ƒÖµ‰
+K
+java:S1066“"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ
+Y
+java:S1659">Declare "y" and all following declarations on a separate line.(ˆŞ„éşÿÿÿÿ
+L
+java:S1117„"5Rename "x" which hides the field declared at line 12.(±£áì
+Q
+java:S1117"5Rename "y" which hides the field declared at line 12.(“Ğá¦şÿÿÿÿ
+Z
+java:S1155›">Use isEmpty() to check whether the collection is empty or not.(·ÇŠ›ıÿÿÿÿ
+:
+java:S2119œ"Save and re-use this "Random".(øõŒğüÿÿÿÿ
+i
+java:S3776÷"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(û‹¨
+]
+java:S1126Ò"AReplace this if-then-else statement by a single return statement.(ğâ¼¦úÿÿÿÿ
