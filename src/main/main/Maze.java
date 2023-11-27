@@ -62,6 +62,14 @@ public class Maze {
 
         container.add(mazeBorder);
 
+        createControlsArea(container, grid, frame);
+
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }
+
+    private void createControlsArea(JPanel container, MazeGridPanel grid, JFrame frame) {
         CardLayout cardLayout = new CardLayout();
 
         JButton runButton = new JButton("Run");
@@ -187,9 +195,5 @@ public class Maze {
         });
 
         resetButton.addActionListener(event -> createAndShowGUI());
-
-        frame.pack();
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
     }
 }
