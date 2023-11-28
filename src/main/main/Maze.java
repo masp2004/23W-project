@@ -18,6 +18,7 @@ public class Maze {
     public static int speed = 1;
     public static boolean generated, solved;
     private int cols, rows;
+    private MazeGridPanel grid;
 
     public Maze() {
         cols = Math.floorDiv(COLUMNS, CELL_SIZE);
@@ -49,7 +50,19 @@ public class Maze {
         frame.setContentPane(container);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        MazeGridPanel grid = new MazeGridPanel(rows, cols);
+        JPanel mazeBorder = getjPanel();
+
+        container.add(mazeBorder);
+
+        createControlsArea(container, grid, frame);
+
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }
+
+    private JPanel getjPanel() {
+        grid = new MazeGridPanel(rows, cols);
         grid.setBackground(Color.BLACK);
 
         JPanel mazeBorder = new JPanel();
@@ -59,14 +72,7 @@ public class Maze {
         mazeBorder.setBorder(BorderFactory.createEmptyBorder(BORDER_SIZE, BORDER_SIZE, BORDER_SIZE, BORDER_SIZE));
 
         mazeBorder.add(grid);
-
-        container.add(mazeBorder);
-
-        createControlsArea(container, grid, frame);
-
-        frame.pack();
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        return mazeBorder;
     }
 
     private void createControlsArea(JPanel container, MazeGridPanel grid, JFrame frame) {
