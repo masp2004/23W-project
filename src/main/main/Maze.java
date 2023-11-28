@@ -48,7 +48,8 @@ public class Maze {
         JPanel container = new JPanel();
         container.setLayout(new BoxLayout(container, BoxLayout.Y_AXIS));
         frame.setContentPane(container);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
 
         JPanel mazeBorder = getjPanel();
 
