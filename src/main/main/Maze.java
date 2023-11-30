@@ -50,7 +50,6 @@ public class Maze {
         frame.setContentPane(container);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-
         JPanel mazeBorder = getjPanel();
 
         container.add(mazeBorder);

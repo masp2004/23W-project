@@ -1,6 +1,6 @@
 
 v
-java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(Àş¿Ê8äÁû¶Á1
+java:S2293a"YReplace the type specification in this constructor call with the diamond operator ("<>").(Àş¿Ê8äÁû¶Á1
 J
 java:S1604"(Make this anonymous inner class a lambda(¤©Òâüÿÿÿÿ8åÁû¶Á1
 m
@@ -22,28 +22,28 @@ java:S1659"$Declare "solved" on a separate line.(Å¹˜Š8£¥ôƒÁ1
 ?
 java:S1659""Declare "rows" on a separate line.(èÃá¯8£¥ôƒÁ1
 s
-java:S1149b"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Àş¿Ê8õÁû¶Á1
+java:S1149a"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Àş¿Ê8õÁû¶Á1
 i
-java:S32523"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(×Ğ‘÷8ÿÅÉ·Á1
+java:S32523"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(×Ğ‘÷8óÎ´üÁ1
 b
-java:S3252^"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Øì¶ê8üÁû¶Á1
+java:S3252]"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Øì¶ê8üÁû¶Á1
 g
-java:S3252_"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Éêø§ıÿÿÿÿ8ıÁû¶Á1
+java:S3252^"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Éêø§ıÿÿÿÿ8ıÁû¶Á1
 g
-java:S3252`"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Â±Ìşÿÿÿÿ8ıÁû¶Á1
+java:S3252_"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Â±Ìşÿÿÿÿ8ıÁû¶Á1
 >
-java:S1116z"Remove this empty statement.(Åñ­õşÿÿÿÿ8„Âû¶Á1
+java:S1116y"Remove this empty statement.(Åñ­õşÿÿÿÿ8„Âû¶Á1
 O
-java:S1602¨",Remove useless curly braces around statement(ú’õ™üÿÿÿÿ8‡Âû¶Á1
+java:S1602§",Remove useless curly braces around statement(ú’õ™üÿÿÿÿ8‡Âû¶Á1
 T
-java:S2696©"6Make the enclosing method "static" or remove this set.(ê¶´8‡Âû¶Á1
+java:S2696¨"6Make the enclosing method "static" or remove this set.(ê¶´8‡Âû¶Á1
 J
-java:S1602¬",Remove useless curly braces around statement(ÄÉùÜ8‡Âû¶Á1
+java:S1602«",Remove useless curly braces around statement(ÄÉùÜ8‡Âû¶Á1
 T
-java:S2696­"6Make the enclosing method "static" or remove this set.(İÎŸ«8‡Âû¶Á1
+java:S2696¬"6Make the enclosing method "static" or remove this set.(İÎŸ«8‡Âû¶Á1
 S
-java:S2696±"6Make the enclosing method "static" or remove this set.(«“8ˆÂû¶Á1
+java:S2696°"6Make the enclosing method "static" or remove this set.(«“8ˆÂû¶Á1
 T
-java:S2696²"6Make the enclosing method "static" or remove this set.(•ƒôÁ8ˆÂû¶Á1
+java:S2696±"6Make the enclosing method "static" or remove this set.(•ƒôÁ8ˆÂû¶Á1
 Y
-java:S2696³"6Make the enclosing method "static" or remove this set.(ºßøŞúÿÿÿÿ8ˆÂû¶Á1
+java:S2696²"6Make the enclosing method "static" or remove this set.(ºßøŞúÿÿÿÿ8ˆÂû¶Á1
