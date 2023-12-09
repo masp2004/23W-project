@@ -15,3 +15,9 @@ G
 src/main/util/Cell.java,3/d/3de2ca41409cbfa2021523df35b9d766023b4951
 P
  src/main/main/MazeGridPanel.java,a/4/a4f1a661cdc1913d3fd40e9446ad179f5abd4382
+O
+src/main/util/DisjointSets.java,f/d/fdd45dfb3de68c44fc09606a4ab7d220e25c72fc
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e

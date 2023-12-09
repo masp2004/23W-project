@@ -9,14 +9,25 @@ import java.util.*;
  *
  */
 
+
 public class DisjointSets {
 
+    /**
+     * The list of disjoint sets
+     */
     private List<Map<Integer, Set<Integer>>> disjointSet;
 
+    /**
+     * Constructor for DisjointSets
+     */
     public DisjointSets() {
         disjointSet = new ArrayList<Map<Integer, Set<Integer>>>();
     }
 
+    /**
+     * Create a set with only one element.
+     * @param element
+     */
     public void create_set(int element) {
         Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>>();
         Set<Integer> set = new HashSet<Integer>();
@@ -27,6 +38,13 @@ public class DisjointSets {
         disjointSet.add(map);
     }
 
+    /**
+     * Combines two sets together to one.
+     * @param first
+     * @param second
+     * @return true if union successful
+     *        false if union failed
+     */
     public void union(int first, int second) {
 
         int first_rep = find_set(first);
@@ -62,6 +80,11 @@ public class DisjointSets {
         return;
     }
 
+    /**
+     * Finds the representative of this set
+     * @param element
+     * @return
+     */
     public int find_set(int element) {
 
         for (int index = 0; index < disjointSet.size(); index++) {
@@ -78,6 +101,9 @@ public class DisjointSets {
         return -1;
     }
 
+    /**
+     * Find the set of the given element
+     */
     public int getNumberofDisjointSets() {
         return disjointSet.size();
     }
