@@ -88,14 +88,14 @@ public class QuadDFSGen {
         for (int i = 0; i < grids.size(); i++) {
             final int id = i;
             grids.get(i).forEach(c -> c.setId(id));
-            disjointSet.create_set(i);
+            disjointSet.createSet(i);
         }
 
         for (Cell c : grid) {
-            if (disjointSet.getNumberofDisjointSets() == 1) break; // break out if all cells in one set.
+            if (disjointSet.getNumberOfDisjointSets() == 1) break; // break out if all cells in one set.
             List<Cell> neighs = c.getAllNeighbours(grid);
             for (Cell n : neighs) {
-                if (disjointSet.find_set(c.getId()) != disjointSet.find_set(n.getId())) {
+                if (disjointSet.findSet(c.getId()) != disjointSet.findSet(n.getId())) {
                     c.removeWalls(n);
                     disjointSet.union(c.getId(), n.getId());
                 }

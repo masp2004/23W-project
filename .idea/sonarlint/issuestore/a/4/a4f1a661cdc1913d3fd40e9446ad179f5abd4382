@@ -6,6 +6,8 @@ java:S2293"YReplace the type specification in this constructor call with the d
 K
 java:S1948".Make "currentCells" transient or serializable.(¤ÓëÛ8‡ğØƒÁ1
 W	java:S125"<This block of commented-out lines of code should be removed.(¨şÑa8‰ğØƒÁ1
+€
+java:S15417"^The Cyclomatic Complexity of this method "generate" is 16 which is greater than 10 authorized.(€û…æşÿÿÿÿ8 Š¬Å1
 ]	java:S1250"<This block of commented-out lines of code should be removed.(·îÏ‘ùÿÿÿÿ8ßÊÛƒÁ1
 >
 java:S1116N"Remove this empty statement.(Åñ­õşÿÿÿÿ8‹ğØƒÁ1
@@ -17,3 +19,5 @@ W	java:S125q"<This block of commented-out lines of code should be removed.(»¤‘
 a
 java:S1155§">Use isEmpty() to check whether the collection is empty or not.(äñ‡íıÿÿÿÿ8ğØƒÁ1
 Y	java:S125°"<This block of commented-out lines of code should be removed.(°Íô™8™ÚâƒÁ1
+X	java:S139Ä"6Move this trailing comment on the previous empty line.(ğ‹ö¡ÿÿÿÿÿ8£ Š¬Å1
+S	java:S139Å"6Move this trailing comment on the previous empty line.(é³»¥8£ Š¬Å1

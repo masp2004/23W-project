@@ -13,89 +13,58 @@ import java.util.*;
 public class DisjointSets {
 
     /**
-     * The list of disjoint sets
+     * The disjoint sets represented as a map
      */
-    private List<Map<Integer, Set<Integer>>> disjointSet;
+    private final Map<Integer, Set<Integer>> disjointSet;
 
     /**
      * Constructor for DisjointSets
      */
     public DisjointSets() {
-        disjointSet = new ArrayList<Map<Integer, Set<Integer>>>();
+        disjointSet = new HashMap<>();
     }
 
     /**
      * Create a set with only one element.
+     *
      * @param element
      */
-    public void create_set(int element) {
-        Map<Integer, Set<Integer>> map = new HashMap<Integer, Set<Integer>>();
-        Set<Integer> set = new HashSet<Integer>();
-
+    public void createSet(int element) {
+        Set<Integer> set = new HashSet<>();
         set.add(element);
-        map.put(element, set);
-
-        disjointSet.add(map);
+        disjointSet.put(element, set);
     }
 
     /**
      * Combines two sets together to one.
+     *
      * @param first
      * @param second
-     * @return true if union successful
-     *        false if union failed
      */
     public void union(int first, int second) {
+        int firstRep = findSet(first);
+        int secondRep = findSet(second);
 
-        int first_rep = find_set(first);
-        int second_rep = find_set(second);
+        Set<Integer> firstSet = disjointSet.get(firstRep);
+        Set<Integer> secondSet = disjointSet.get(secondRep);
 
-        Set<Integer> first_set = null;
-        Set<Integer> second_set = null;
-
-        for (int index = 0; index < disjointSet.size(); index++) {
-            Map<Integer, Set<Integer>> map = disjointSet.get(index);
-
-            if (map.containsKey(first_rep)) {
-                first_set = map.get(first_rep);
-            } else if (map.containsKey(second_rep)) {
-                second_set = map.get(second_rep);
-            }
+        if (firstSet != null && secondSet != null) {
+            firstSet.addAll(secondSet);
+            disjointSet.remove(secondRep);
         }
-
-        if (first_set != null && second_set != null)
-            first_set.addAll(second_set);
-
-        for (int index = 0; index < disjointSet.size(); index++) {
-
-            Map<Integer, Set<Integer>> map = disjointSet.get(index);
-
-            if (map.containsKey(first_rep)) {
-                map.put(first_rep, first_set);
-            } else if (map.containsKey(second_rep)) {
-                map.remove(second_rep);
-                disjointSet.remove(index);
-            }
-        }
-        return;
     }
 
     /**
      * Finds the representative of this set
-     * @param element
-     * @return
+     *
+     * @param element to find
+     * @return -1 if element is not in any set
      */
-    public int find_set(int element) {
-
-        for (int index = 0; index < disjointSet.size(); index++) {
-            Map<Integer, Set<Integer>> map = disjointSet.get(index);
-            Set<Integer> keySet = map.keySet();
-
-            for (Integer key : keySet) {
-                Set<Integer> set = map.get(key);
-                if (set.contains(element)) {
-                    return key;
-                }
+    public int findSet(int element) {
+        for (int key : disjointSet.keySet()) {
+            Set<Integer> set = disjointSet.get(key);
+            if (set.contains(element)) {
+                return key;
             }
         }
         return -1;
@@ -104,7 +73,7 @@ public class DisjointSets {
     /**
      * Find the set of the given element
      */
-    public int getNumberofDisjointSets() {
+    public int getNumberOfDisjointSets() {
         return disjointSet.size();
     }
 }

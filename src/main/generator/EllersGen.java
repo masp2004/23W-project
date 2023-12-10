@@ -30,7 +30,7 @@ public class EllersGen {
 
         for (int i = 0; i < grid.size(); i++) {
             grid.get(i).setId(i);
-            disjointSet.create_set(grid.get(i).getId());
+            disjointSet.createSet(grid.get(i).getId());
         }
 
         final Timer timer = new Timer(Maze.speed, null);
@@ -93,7 +93,7 @@ public class EllersGen {
             if (r.nextBoolean() || col.contains(grid.get(grid.size() - 1))) { // or last column
                 Cell bottom = current.getBottomNeighbour(grid);
                 if (bottom != null) {
-                    if (disjointSet.find_set(current.getId()) != disjointSet.find_set(bottom.getId())) {
+                    if (disjointSet.findSet(current.getId()) != disjointSet.findSet(bottom.getId())) {
                         current.removeWalls(bottom);
                         disjointSet.union(current.getId(), bottom.getId());
                     }
@@ -106,7 +106,7 @@ public class EllersGen {
 
             List<Cell> cells = new ArrayList<Cell>();
             for (Cell c2 : col) {
-                if (disjointSet.find_set(c.getId()) == disjointSet.find_set(c2.getId())) {
+                if (disjointSet.findSet(c.getId()) == disjointSet.findSet(c2.getId())) {
                     cells.add(c2);
                 }
             }

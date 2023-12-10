@@ -28,7 +28,7 @@ public class KruskalsGen {
 
         for (int i = 0; i < grid.size(); i++) {
             grid.get(i).setId(i);
-            disjointSet.create_set(grid.get(i).getId());
+            disjointSet.createSet(grid.get(i).getId());
         }
 
         stack.addAll(grid);
@@ -59,7 +59,7 @@ public class KruskalsGen {
         List<Cell> neighs = current.getAllNeighbours(grid);
 
         for (Cell n : neighs) {
-            if (disjointSet.find_set(current.getId()) != disjointSet.find_set(n.getId())) {
+            if (disjointSet.findSet(current.getId()) != disjointSet.findSet(n.getId())) {
                 current.removeWalls(n);
                 disjointSet.union(current.getId(), n.getId());
             }
