@@ -49,17 +49,28 @@ F
 java:S1066’"/Merge this if statement with the enclosing one.(ƒÖµ‰
 K
 java:S1066“"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ
+G
+java:S2325š")Make "randomNeighbour" a "static" method.(Ä¶ªÄ8ùñ©Å1
+W
+java:S2325¢"4Make "checkNeighbourInGridBounds" a "static" method.(¬Ù¼şÿÿÿÿ8ùñ©Å1
 Y
 java:S1659">Declare "y" and all following declarations on a separate line.(ˆŞ„éşÿÿÿÿ
+\	java:S126h";"if ... else if" constructs should end with "else" clauses.(êıŠáøÿÿÿÿ8“ñ©Å1
 L
 java:S1117„"5Rename "x" which hides the field declared at line 12.(±£áì
+X	java:S126Š";"if ... else if" constructs should end with "else" clauses.(€¿¶8ƒ“ñ©Å1
 Q
 java:S1117"5Rename "y" which hides the field declared at line 12.(“Ğá¦şÿÿÿÿ
+]	java:S126”";"if ... else if" constructs should end with "else" clauses.(º¨ˆÏüÿÿÿÿ8„“ñ©Å1
 Z
 java:S1155›">Use isEmpty() to check whether the collection is empty or not.(·ÇŠ›ıÿÿÿÿ
 :
 java:S2119œ"Save and re-use this "Random".(øõŒğüÿÿÿÿ
 i
 java:S3776÷"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(û‹¨
+„
+java:S1541÷"fThe Cyclomatic Complexity of this method "getPathNeighbour" is 14 which is greater than 10 authorized.(û‹¨8“ñ©Å1
+x
+java:S4174À"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( üÇÿ8”“ñ©Å1
 ]
 java:S1126Ò"AReplace this if-then-else statement by a single return statement.(ğâ¼¦úÿÿÿÿ

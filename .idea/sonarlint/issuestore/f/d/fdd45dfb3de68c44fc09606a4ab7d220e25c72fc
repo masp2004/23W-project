@@ -1,0 +1,19 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ϊΐ€χ8‚δρυΔ1
+{
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ϊϋΩψÿÿÿÿ8‚δρυΔ1
+v
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Θϊξ8‚δρυΔ1
+r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(πΣ¥ιϋÿÿÿÿ8ƒδρυΔ1
+r	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Κ“ύÿÿÿÿ8ƒδρυΔ1
+m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ζμ…8ƒδρυΔ1
+r	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°έ™―ϋÿÿÿÿ8ƒδρυΔ1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΓΆϋÿÿÿÿ8µδρυΔ1
+8
+java:S3626P"Remove this redundant jump.(ϋΑέ…8¶δρυΔ1
+\	java:S126=";"if ... else if" constructs should end with "else" clauses.(ΚΖ¨όÿÿÿÿ8·δρυΔ1
+F
+java:S5413M")Verify that "remove()" is used correctly.(Δ®8ΈδρυΔ1
+\	java:S126K";"if ... else if" constructs should end with "else" clauses.(ΚΖ¨όÿÿÿÿ8ΈδρυΔ1
+j	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ώ§θ½8ΈδρυΔ1
