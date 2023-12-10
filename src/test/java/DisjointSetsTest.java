@@ -15,6 +15,7 @@ public class DisjointSetsTest {
         assertEquals(element, representativeKey);
     }
 
+    @org.junit.Test
     public void union() {
 
         util.DisjointSets disjointSets = new util.DisjointSets();
