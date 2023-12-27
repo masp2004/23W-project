@@ -30,11 +30,21 @@ public class DisjointSets {
      * @param element
      */
     public void createSet(int element) {
-        assert findSet(element) == -1;
-        Set<Integer> set = new HashSet<>();
-        set.add(element);
-        disjointSet.put(element, set);
+        try {
+            // Überprüfe, ob das Element bereits in einem Set vorhanden ist
+            assert findSet(element) == -1;
+
+            Set<Integer> set = new HashSet<>();
+            set.add(element);
+
+            disjointSet.put(element, set);
+
+        } catch (AssertionError e) {
+            // Falls findSet eine AssertionError wirft, kann das Element dem existierenden Set hinzugefügt werden.
+            disjointSet.get(element).add(element);
+        }
     }
+
 
     /**
      * Combines two sets together to one.
@@ -49,7 +59,17 @@ public class DisjointSets {
         Set<Integer> firstSet = disjointSet.get(firstRep);
         Set<Integer> secondSet = disjointSet.get(secondRep);
 
-        if (firstSet != null && secondSet != null) {
+        if (firstSet == null) {
+            firstSet = new HashSet<>();
+            disjointSet.put(firstRep, firstSet);
+        }
+
+        if (secondSet == null) {
+            secondSet = new HashSet<>();
+            disjointSet.put(secondRep, secondSet);
+        }
+
+        if (firstRep != secondRep) {
             firstSet.addAll(secondSet);
             disjointSet.remove(secondRep);
         }

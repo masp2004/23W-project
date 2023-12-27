@@ -1,3 +1,9 @@
 
+p
+java:S3824;"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(¦›šôþÿÿÿÿ8­¦ÖÞÊ1
+p
+java:S3824<"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".( ˆÁüüÿÿÿÿ8®¦ÖÞÊ1
+J
+java:S4274#"(Replace this assert with a proper check.(Çá”Îþÿÿÿÿ8ŠªõÞÊ1
 V
-java:S2864@"4Iterate over the "entrySet" instead of the "keySet".(Éå¯Ýÿÿÿÿÿ8ÐÅ©¬Å1
+java:S2864U"4Iterate over the "entrySet" instead of the "keySet".(Éå¯Ýÿÿÿÿÿ8ÐÅ©¬Å1
