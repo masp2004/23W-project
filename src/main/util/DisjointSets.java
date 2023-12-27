@@ -30,6 +30,7 @@ public class DisjointSets {
      * @param element
      */
     public void createSet(int element) {
+        assert findSet(element) == -1;
         Set<Integer> set = new HashSet<>();
         set.add(element);
         disjointSet.put(element, set);

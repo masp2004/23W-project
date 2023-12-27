@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class DisjointSetsTest {
 
@@ -32,5 +32,14 @@ public class DisjointSetsTest {
 
         assertEquals(firstRepresentativeKey, secondRepresentativeKey);
         assertEquals(initialSets - 1, disjointSets.getNumberOfDisjointSets());
+    }
+    @org.junit.Test
+    public void test() {
+        var sets = new util.DisjointSets();
+        sets.createSet(12);
+        sets.createSet(27);
+        sets.union(12, 27);
+        sets.createSet(27);
+        sets.findSet(27);
     }
 }
