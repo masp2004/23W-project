@@ -5,3 +5,4 @@ W
 java:S1612"<Replace this lambda with method reference 'Cell::isVisited'.(ú¢•–üÿÿÿÿ
 L
 java:S2696 "6Make the enclosing method "static" or remove this set.(¿¯­
+W	java:S1262";"if ... else if" constructs should end with "else" clauses.(¥¶À¥8Ú‹àÊ1

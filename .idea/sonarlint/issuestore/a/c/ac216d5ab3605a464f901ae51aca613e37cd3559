@@ -23,8 +23,10 @@ java:S1659"$Declare "solved" on a separate line.(Å¹˜Š8£¥ôƒÁ1
 java:S1659""Declare "rows" on a separate line.(èÃá¯8£¥ôƒÁ1
 s
 java:S1149a"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Àş¿Ê8õÁû¶Á1
+W	java:S139"6Move this trailing comment on the previous empty line.(ä‚’ùÿÿÿÿ8·Ï…àÊ1
 i
 java:S32523"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(×Ğ‘÷8óÎ´üÁ1
+‰	java:S138N"hThis method has 100 lines, which is greater than the 75 lines authorized. Split it into smaller methods.(æĞË×úÿÿÿÿ8ÏÏ…àÊ1
 b
 java:S3252]"EUse static access with "javax.swing.SwingConstants" for "HORIZONTAL".(Øì¶ê8üÁû¶Á1
 g

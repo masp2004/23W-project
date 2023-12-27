@@ -6,7 +6,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
+import java.util.function.Predicate;
 /**
  * This class represents a cell in the maze.
  */
@@ -297,22 +297,39 @@ public class Cell {
     }
 
 
+    /**
+     * getUnvisitedNeighboursList returns a list of unvisited neighbors of the cell.
+     *
+     * @param grid The grid of cells.
+     * @return List<Cell>
+     */
     public List<Cell> getUnvisitedNeighboursList(List<Cell> grid) {
+        return getNeighboursWithProperty(grid, cell -> !cell.visited);
+    }
 
-        List<Cell> neighbours = new ArrayList<Cell>(4);
+    /**
+     * getNeighboursWithProperty returns a list of neighbors that satisfy the given property.
+     *
+     * @param grid     The grid of cells.
+     * @param property The property to check for each cell.
+     * @return List<Cell>
+     */
+    private List<Cell> getNeighboursWithProperty(List<Cell> grid, Predicate<Cell> property) {
+        List<Cell> neighbours = new ArrayList<>(4);
 
         Cell top = checkNeighbourInGridBounds(grid, new Cell(x, y - 1));
         Cell right = checkNeighbourInGridBounds(grid, new Cell(x + 1, y));
         Cell bottom = checkNeighbourInGridBounds(grid, new Cell(x, y + 1));
         Cell left = checkNeighbourInGridBounds(grid, new Cell(x - 1, y));
 
-        if (top != null) if (!top.visited) neighbours.add(top);
-        if (right != null) if (!right.visited) neighbours.add(right);
-        if (bottom != null) if (!bottom.visited) neighbours.add(bottom);
-        if (left != null) if (!left.visited) neighbours.add(left);
+        if (top != null && property.test(top)) neighbours.add(top);
+        if (right != null && property.test(right)) neighbours.add(right);
+        if (bottom != null && property.test(bottom)) neighbours.add(bottom);
+        if (left != null && property.test(left)) neighbours.add(left);
 
         return neighbours;
     }
+
 
     // no walls between
     public List<Cell> getValidMoveNeighbours(List<Cell> grid) {
