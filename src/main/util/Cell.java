@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * This class represents a cell in the maze.
+ */
 public class Cell {
 
     private int x, y, distance, id;
@@ -19,76 +22,150 @@ public class Cell {
 
     private boolean[] walls = {true, true, true, true};
 
+    /**
+     * Constructor for Cell
+     *
+     * @param x
+     * @param y
+     */
     public Cell(int x, int y) {
         this.x = x;
         this.y = y;
         this.distance = -1;
     }
 
+    /**
+     * getWalls returns the walls of the cell
+     * @return boolean[]
+     */
     public boolean[] getWalls() {
         return walls;
     }
 
+    /**
+     * setWalls sets the walls of the cell
+     * @param walls
+     */
     public void setWalls(boolean[] walls) {
         this.walls = walls;
     }
 
+    /**
+     * getX returns the x coordinate of the cell
+     * @return int
+     */
     public int getX() {
         return x;
     }
 
+    /**
+     * getY returns the y coordinate of the cell
+     * @return int
+     */
     public int getY() {
         return y;
     }
 
+    /**
+     * setX sets the x coordinate of the cell
+     * @return int
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * setId sets the id of the cell
+     * @param id
+     */
     public void setId(int id) {
         this.id = id;
     }
 
+    /**
+     * setX sets the x coordinate of the cell
+     * @return boolean
+     */
     public boolean isVisited() {
         return visited;
     }
 
+    /**
+     * setVisited sets the visited status of the cell
+     * @param visited
+     */
     public void setVisited(boolean visited) {
         this.visited = visited;
     }
 
+    /**
+     * isDeadEnd returns the deadEnd status of the cell
+     * @return boolean
+     */
     public boolean isDeadEnd() {
         return deadEnd;
     }
 
+    /**
+     * setDeadEnd sets the deadEnd status of the cell
+     * @param deadEnd
+     */
     public void setDeadEnd(boolean deadEnd) {
         this.deadEnd = deadEnd;
     }
 
+    /**
+     * isPath returns the path status of the cell
+     * @return boolean
+     */
     public boolean isPath() {
         return path;
     }
 
+    /**
+     * setPath sets the path status of the cell
+     * @param path
+     */
     public void setPath(boolean path) {
         this.path = path;
     }
 
+    /**
+     * getDistance returns the distance of the cell
+     * @return int
+     */
     public int getDistance() {
         return distance;
     }
 
+    /**
+     * setDistance sets the distance of the cell
+     * @param distance
+     */
     public void setDistance(int distance) {
         this.distance = distance;
     }
 
+    /**
+     * getParent returns the parent of the cell
+     * @return parent
+     */
     public Cell getParent() {
         return parent;
     }
 
+    /**
+     * setParent sets the parent of the cell
+     * @param parent
+     */
     public void setParent(Cell parent) {
         this.parent = parent;
     }
 
+    /**
+     * draw draws the cell
+     * @param g
+     */
     public void draw(Graphics g) {
         int x2 = x * Maze.CELL_SIZE;
         int y2 = y * Maze.CELL_SIZE;
@@ -121,6 +198,11 @@ public class Cell {
         }
     }
 
+    /**
+     * displayAsColor displays the cell as a color
+     * @param g
+     * @param color
+     */
     public void displayAsColor(Graphics g, Color color) {
         int x2 = x * Maze.CELL_SIZE;
         int y2 = y * Maze.CELL_SIZE;
@@ -128,6 +210,10 @@ public class Cell {
         g.fillRect(x2, y2, Maze.CELL_SIZE, Maze.CELL_SIZE);
     }
 
+    /**
+     * removeWalls removes the walls between two cells
+     * @param next
+     */
     public void removeWalls(Cell next) {
         int x = this.x - next.x;
         // top 0, right 1, bottom 2, left 3
@@ -151,6 +237,11 @@ public class Cell {
         }
     }
 
+    /**
+     * randomNeighbour returns a random neighbour of the cell
+     * @param neighbours
+     * @return Cell
+     */
     private Cell randomNeighbour(List<Cell> neighbours) {
         if (neighbours.size() > 0) {
             return neighbours.get(new Random().nextInt(neighbours.size()));
@@ -159,6 +250,12 @@ public class Cell {
         }
     }
 
+    /**
+     * checkNeighbourInGridBounds checks if a neighbour is in the grid bounds
+     * @param grid
+     * @param neighbour
+     * @return Cell
+     */
     private Cell checkNeighbourInGridBounds(List<Cell> grid, Cell neighbour) {
         if (grid.contains(neighbour)) {
             return grid.get(grid.indexOf(neighbour));
@@ -188,6 +285,7 @@ public class Cell {
         return randomNeighbour(neighbours);
     }
 
+
     public Cell getUnvisitedNeighbour(List<Cell> grid) {
 
         List<Cell> neighbours = getUnvisitedNeighboursList(grid);
@@ -197,6 +295,7 @@ public class Cell {
         }
         return randomNeighbour(neighbours);
     }
+
 
     public List<Cell> getUnvisitedNeighboursList(List<Cell> grid) {
 

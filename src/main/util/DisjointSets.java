@@ -27,12 +27,12 @@ public class DisjointSets {
     /**
      * Create a set with only one element.
      *
-     * @param element
+     * @param element to create a set with
      */
     public void createSet(int element) {
         try {
             // Überprüfe, ob das Element bereits in einem Set vorhanden ist
-            assert findSet(element) == -1;
+            if (findSet(element) != -1) throw new AssertionError();
 
             Set<Integer> set = new HashSet<>();
             set.add(element);
@@ -49,15 +49,15 @@ public class DisjointSets {
     /**
      * Combines two sets together to one.
      *
-     * @param first
-     * @param second
+     * @param first set to combine
+     * @param second set to combine
      */
     public void union(int first, int second) {
         int firstRep = findSet(first);
         int secondRep = findSet(second);
 
-        Set<Integer> firstSet = disjointSet.get(firstRep);
-        Set<Integer> secondSet = disjointSet.get(secondRep);
+        java.util.Set<Integer> firstSet = disjointSet.get(firstRep);
+        java.util.Set<Integer> secondSet = disjointSet.get(secondRep);
 
         if (firstSet == null) {
             firstSet = new HashSet<>();
