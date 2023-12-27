@@ -1,66 +1,66 @@
 
 w
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ8¨şìßÊ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ8¨şìßÊ1
 w
-java:S2293Ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ8©şìßÊ1
+java:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍœŸÅ8©şìßÊ1
 |
-java:S2293ì"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¶µŞıÿÿÿÿ8Óù÷ßÊ1
-|
-java:S2293“"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¶µŞıÿÿÿÿ8Óù÷ßÊ1
+java:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¶µŞıÿÿÿÿ8Óù÷ßÊ1
 M
-java:S1066•"/Merge this if statement with the enclosing one.(‹ˆÁ•8©şìßÊ1
+java:S1066–"/Merge this if statement with the enclosing one.(‹ˆÁ•8©şìßÊ1
 R
-java:S1066–"/Merge this if statement with the enclosing one.(±ó¦°ıÿÿÿÿ8©şìßÊ1
+java:S1066—"/Merge this if statement with the enclosing one.(±ó¦°ıÿÿÿÿ8©şìßÊ1
 M
-java:S1066—"/Merge this if statement with the enclosing one.(õÌ¸Î8©şìßÊ1
+java:S1066˜"/Merge this if statement with the enclosing one.(õÌ¸Î8©şìßÊ1
 M
-java:S1066˜"/Merge this if statement with the enclosing one.(Å” Ä8©şìßÊ1
+java:S1066™"/Merge this if statement with the enclosing one.(Å” Ä8©şìßÊ1
 M
-java:S1066Ø"/Merge this if statement with the enclosing one.(´£É8§®íßÊ1
+java:S1066Ù"/Merge this if statement with the enclosing one.(´£É8§®íßÊ1
 R
-java:S1066Ü"/Merge this if statement with the enclosing one.(üùØ·ÿÿÿÿÿ8§®íßÊ1
+java:S1066İ"/Merge this if statement with the enclosing one.(üùØ·ÿÿÿÿÿ8§®íßÊ1
 M
-java:S1066à"/Merge this if statement with the enclosing one.(Ÿñá–8§®íßÊ1
+java:S1066á"/Merge this if statement with the enclosing one.(Ÿñá–8§®íßÊ1
 R
-java:S1066ä"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ8§®íßÊ1
+java:S1066å"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ8§®íßÊ1
 R
-java:S1066ô"/Merge this if statement with the enclosing one.(«€°ıÿÿÿÿ8Õù÷ßÊ1
+java:S1066õ"/Merge this if statement with the enclosing one.(«€°ıÿÿÿÿ8Õù÷ßÊ1
 M
-java:S1066õ"/Merge this if statement with the enclosing one.(´£É8Õù÷ßÊ1
+java:S1066ö"/Merge this if statement with the enclosing one.(´£É8Õù÷ßÊ1
 R
-java:S1066ú"/Merge this if statement with the enclosing one.(Œ³³ûÿÿÿÿ8Õù÷ßÊ1
+java:S1066û"/Merge this if statement with the enclosing one.(Œ³³ûÿÿÿÿ8Õù÷ßÊ1
 R
-java:S1066û"/Merge this if statement with the enclosing one.(üùØ·ÿÿÿÿÿ8Õù÷ßÊ1
+java:S1066ü"/Merge this if statement with the enclosing one.(üùØ·ÿÿÿÿÿ8Õù÷ßÊ1
 R
-java:S1066€"/Merge this if statement with the enclosing one.(æè‚¥ûÿÿÿÿ8Õù÷ßÊ1
+java:S1066"/Merge this if statement with the enclosing one.(æè‚¥ûÿÿÿÿ8Õù÷ßÊ1
 M
-java:S1066"/Merge this if statement with the enclosing one.(Ÿñá–8Õù÷ßÊ1
+java:S1066‚"/Merge this if statement with the enclosing one.(Ÿñá–8Õù÷ßÊ1
 M
-java:S1066†"/Merge this if statement with the enclosing one.(ƒÖµ‰8Õù÷ßÊ1
+java:S1066‡"/Merge this if statement with the enclosing one.(ƒÖµ‰8Õù÷ßÊ1
 R
-java:S1066‡"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ8Õù÷ßÊ1
+java:S1066ˆ"/Merge this if statement with the enclosing one.(ÍŒ„ûÿÿÿÿ8Õù÷ßÊ1
 G
-java:S2325õ")Make "randomNeighbour" a "static" method.(Ä¶ªÄ8ªşìßÊ1
+java:S2325ö")Make "randomNeighbour" a "static" method.(Ä¶ªÄ8ªşìßÊ1
 W
-java:S2325ƒ"4Make "checkNeighbourInGridBounds" a "static" method.(¬Ù¼şÿÿÿÿ8ªşìßÊ1
+java:S2325„"4Make "checkNeighbourInGridBounds" a "static" method.(¬Ù¼şÿÿÿÿ8ªşìßÊ1
 `
 java:S1659">Declare "y" and all following declarations on a separate line.(ˆŞ„éşÿÿÿÿ8öşìßÊ1
-]	java:S126µ";"if ... else if" constructs should end with "else" clauses.(êıŠáøÿÿÿÿ8ùşìßÊ1
+]	java:S126¶";"if ... else if" constructs should end with "else" clauses.(êıŠáøÿÿÿÿ8ùşìßÊ1
 S
-java:S1117Ú"5Rename "x" which hides the field declared at line 15.(±£áì8úşìßÊ1
-X	java:S126à";"if ... else if" constructs should end with "else" clauses.(€¿¶8úşìßÊ1
+java:S1117Û"5Rename "x" which hides the field declared at line 15.(±£áì8úşìßÊ1
+X	java:S126á";"if ... else if" constructs should end with "else" clauses.(€¿¶8úşìßÊ1
 X
-java:S1117å"5Rename "y" which hides the field declared at line 15.(“Ğá¦şÿÿÿÿ8úşìßÊ1
-]	java:S126ê";"if ... else if" constructs should end with "else" clauses.(º¨ˆÏüÿÿÿÿ8úşìßÊ1
+java:S1117æ"5Rename "y" which hides the field declared at line 15.(“Ğá¦şÿÿÿÿ8úşìßÊ1
+]	java:S126ë";"if ... else if" constructs should end with "else" clauses.(º¨ˆÏüÿÿÿÿ8úşìßÊ1
 a
-java:S1155ö">Use isEmpty() to check whether the collection is empty or not.(·ÇŠ›ıÿÿÿÿ8ûşìßÊ1
+java:S1155÷">Use isEmpty() to check whether the collection is empty or not.(·ÇŠ›ıÿÿÿÿ8ûşìßÊ1
 A
-java:S2119÷"Save and re-use this "Random".(øõŒğüÿÿÿÿ8üşìßÊ1
+java:S2119ø"Save and re-use this "Random".(øõŒğüÿÿÿÿ8üşìßÊ1
 p
-java:S3776ë"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(û‹¨8€ÿìßÊ1
+java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(û‹¨8€ÿìßÊ1
 „
-java:S1541ë"fThe Cyclomatic Complexity of this method "getPathNeighbour" is 14 which is greater than 10 authorized.(û‹¨8€ÿìßÊ1
+java:S1541ì"fThe Cyclomatic Complexity of this method "getPathNeighbour" is 14 which is greater than 10 authorized.(û‹¨8€ÿìßÊ1
 x
-java:S4174´"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( üÇÿ8‚ÿìßÊ1
+java:S4174©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( üÇÿ8‚ÿìßÊ1
 d
-java:S1126Æ"AReplace this if-then-else statement by a single return statement.(ğâ¼¦úÿÿÿÿ8ƒÿìßÊ1
+java:S1126»"AReplace this if-then-else statement by a single return statement.(ğâ¼¦úÿÿÿÿ8ƒÿìßÊ1
+D
+java:S1068"(Remove this unused "grid" private field.(Ò½ß8˜î˜àÊ1

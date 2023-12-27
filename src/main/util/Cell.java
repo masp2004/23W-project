@@ -21,6 +21,7 @@ public class Cell {
     private boolean deadEnd = false;
 
     private boolean[] walls = {true, true, true, true};
+    private java.util.List<util.Cell> grid;
 
     /**
      * Constructor for Cell
@@ -400,19 +401,7 @@ public class Cell {
     }
 
     public List<Cell> getAllNeighbours(List<Cell> grid) {
-        List<Cell> neighbours = new ArrayList<Cell>();
-
-        Cell top = checkNeighbourInGridBounds(grid, new Cell(x, y - 1));
-        Cell right = checkNeighbourInGridBounds(grid, new Cell(x + 1, y));
-        Cell bottom = checkNeighbourInGridBounds(grid, new Cell(x, y + 1));
-        Cell left = checkNeighbourInGridBounds(grid, new Cell(x - 1, y));
-
-        if (top != null) neighbours.add(top);
-        if (right != null) neighbours.add(right);
-        if (bottom != null) neighbours.add(bottom);
-        if (left != null) neighbours.add(left);
-
-        return neighbours;
+        return getNeighboursWithProperty(grid, cell -> true);
     }
 
     public Cell getTopNeighbour(List<Cell> grid) {
