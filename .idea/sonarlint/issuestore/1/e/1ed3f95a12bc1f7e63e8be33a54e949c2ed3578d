@@ -13,5 +13,8 @@ M
 java:S11351"2Complete the task associated to this TODO comment.(ü¤Ø©úÿÿÿÿ
 h
 java:S62047"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(±Åù½
+W	java:S126D";"if ... else if" constructs should end with "else" clauses.(¢‡Œ8åœ›“Ğ1
+Q
+java:S2221G"4Catch a list of specific exception subtypes instead.(”ı¾8æœ›“Ğ1
 T
 java:S1612N"9Replace this lambda with method reference 'Cell::isPath'.(âË½øÿÿÿÿ

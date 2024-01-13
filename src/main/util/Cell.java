@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.function.Predicate;
+
 /**
  * This class represents a cell in the maze.
  */
@@ -268,22 +269,17 @@ public class Cell {
     // Used for Wilson's algorithm
     public Cell getNonPathNeighbour(List<Cell> grid) {
 
-        List<Cell> neighbours = new ArrayList<Cell>(4);
-
-        Cell top = checkNeighbourInGridBounds(grid, new Cell(x, y - 1));
-        Cell right = checkNeighbourInGridBounds(grid, new Cell(x + 1, y));
-        Cell bottom = checkNeighbourInGridBounds(grid, new Cell(x, y + 1));
-        Cell left = checkNeighbourInGridBounds(grid, new Cell(x - 1, y));
-
-        if (top != null) if (!top.path) neighbours.add(top);
-        if (right != null) if (!right.path) neighbours.add(right);
-        if (bottom != null) if (!bottom.path) neighbours.add(bottom);
-        if (left != null) if (!left.path) neighbours.add(left);
+        java.util.List<util.Cell> neighbours = getCells(grid);
 
         if (neighbours.size() == 1) {
             return neighbours.get(0);
         }
         return randomNeighbour(neighbours);
+    }
+
+    private java.util.List<util.Cell> getCells(java.util.List<util.Cell> grid) {
+        return getNeighboursWithProperty(grid,
+                cell -> !cell.path);
     }
 
 
@@ -305,7 +301,8 @@ public class Cell {
      * @return List<Cell>
      */
     public List<Cell> getUnvisitedNeighboursList(List<Cell> grid) {
-        return getNeighboursWithProperty(grid, cell -> !cell.visited);
+        return getNeighboursWithProperty(grid,
+                cell -> !cell.visited);
     }
 
     /**
@@ -362,42 +359,18 @@ public class Cell {
 
     // used for DFS solving, gets a neighbour that could potentially be part of the solution path.
     public Cell getPathNeighbour(List<Cell> grid) {
-        List<Cell> neighbours = new ArrayList<Cell>();
-
-        Cell top = checkNeighbourInGridBounds(grid, new Cell(x, y - 1));
-        Cell right = checkNeighbourInGridBounds(grid, new Cell(x + 1, y));
-        Cell bottom = checkNeighbourInGridBounds(grid, new Cell(x, y + 1));
-        Cell left = checkNeighbourInGridBounds(grid, new Cell(x - 1, y));
-
-        if (top != null) {
-            if (!top.deadEnd) {
-                if (!walls[0]) neighbours.add(top);
-            }
-        }
-
-        if (right != null) {
-            if (!right.deadEnd) {
-                if (!walls[1]) neighbours.add(right);
-            }
-        }
-
-        if (bottom != null) {
-            if (!bottom.deadEnd) {
-                if (!walls[2]) neighbours.add(bottom);
-            }
-        }
-
-        if (left != null) {
-            if (!left.deadEnd) {
-                if (!walls[3]) neighbours.add(left);
-            }
-        }
+        java.util.List<util.Cell> neighbours = getCellList(grid);
 
         if (neighbours.size() == 1) {
             return neighbours.get(0);
         }
 
         return randomNeighbour(neighbours);
+    }
+
+    private java.util.List<util.Cell> getCellList(java.util.List<util.Cell> grid) {
+        return getNeighboursWithProperty(grid,
+                cell -> !cell.deadEnd && !cell.path);
     }
 
     public List<Cell> getAllNeighbours(List<Cell> grid) {
