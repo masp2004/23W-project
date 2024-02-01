@@ -1,0 +1,22 @@
+
+h	java:S134G"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¡»¢üùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×Ë´Øıÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ôÇŸùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„òë¦şÿÿÿÿ
+n
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨¨ß
+
+o
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ªşá
+C
+java:S1604&"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+W
+java:S1612)"<Replace this lambda with method reference 'Cell::isVisited'.(ú¢•–üÿÿÿÿ
+L
+java:S2696."6Make the enclosing method "static" or remove this set.(¿¯­
+J
+java:S2221I"4Catch a list of specific exception subtypes instead.(”ı¾
+P	java:S139_"6Move this trailing comment on the previous empty line.(ıË—ıÿÿÿÿ

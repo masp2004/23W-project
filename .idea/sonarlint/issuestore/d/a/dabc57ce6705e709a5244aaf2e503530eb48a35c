@@ -1,0 +1,10 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+`	java:S1030"KSplit this 130 characters long line (which is greater than 120 authorized).(£¢£¥
+W
+java:S1612"<Replace this lambda with method reference 'Cell::isVisited'.(ú¢•–üÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(¿¯­
+T
+java:S11550">Use isEmpty() to check whether the collection is empty or not.(£¢£¥

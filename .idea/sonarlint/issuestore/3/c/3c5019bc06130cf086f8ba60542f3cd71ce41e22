@@ -1,0 +1,22 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öÿ´êùÿÿÿÿ
+t
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÑéïŠıÿÿÿÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Öÿ´êùÿÿÿÿ
+P	java:S139"6Move this trailing comment on the previous empty line.(´áŸèøÿÿÿÿ
+K	java:S139"6Move this trailing comment on the previous empty line.(™½Ÿ
+W
+java:S1612""<Replace this lambda with method reference 'Cell::isVisited'.(ú¢•–üÿÿÿÿ
+L
+java:S2696&"6Make the enclosing method "static" or remove this set.(¿¯­
+h
+java:S37761"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(…½§÷
+q
+java:S15411"[The Cyclomatic Complexity of this method "carve" is 11 which is greater than 10 authorized.(…½§÷
+K	java:S139J"6Move this trailing comment on the previous empty line.(Çâ½Ÿ
+W
+java:S1142i"<This method has 5 returns, which is more than the 3 allowed.(ó‚¨ÿşÿÿÿÿ

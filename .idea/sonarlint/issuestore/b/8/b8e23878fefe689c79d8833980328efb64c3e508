@@ -1,0 +1,24 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Öÿ´êùÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ùõÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Öÿ´êùÿÿÿÿ
+W
+java:S1612"<Replace this lambda with method reference 'Cell::isVisited'.(ú¢•–üÿÿÿÿ
+L
+java:S2696#"6Make the enclosing method "static" or remove this set.(¿¯­
+m
+java:S62040"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(óØìÃúÿÿÿÿ
+W
+java:S16120"<Replace this lambda with method reference 'Cell::isVisited'.(óØìÃúÿÿÿÿ
+h
+java:S6204D"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(±Åù½
+P	java:S126Q";"if ... else if" constructs should end with "else" clauses.(¢‡Œ
+J
+java:S2221T"4Catch a list of specific exception subtypes instead.(”ı¾
+T
+java:S1612["9Replace this lambda with method reference 'Cell::isPath'.(âË½øÿÿÿÿ

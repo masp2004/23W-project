@@ -1,0 +1,14 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Φÿ΄κωÿÿÿÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(Δ¬Αϋÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Φÿ΄κωÿÿÿÿ
+W
+java:S1612"<Replace this lambda with method reference 'Cell::isVisited'.(ϊΆ•–όÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(Ώ―­
+P	java:S1260";"if ... else if" constructs should end with "else" clauses.(Ά‡
+J
+java:S22213"4Catch a list of specific exception subtypes instead.(”ύΎ

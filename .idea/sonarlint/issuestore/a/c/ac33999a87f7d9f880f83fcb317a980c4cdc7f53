@@ -1,0 +1,21 @@
+
+o
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ú´ç©
+t
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì§¦ùÿÿÿÿ
+t
+java:S2293k"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤­°àşÿÿÿÿ
+J
+java:S1066`"/Merge this if statement with the enclosing one.(®Îéûÿÿÿÿ
+C
+java:S1604%"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+C
+java:S1604E"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+;
+java:S1659"%Declare "toIndex" on a separate line.(ë¹¡‹
+P	java:S126-";"if ... else if" constructs should end with "else" clauses.(ıÛìÔ
+R
+java:S1612-"<Replace this lambda with method reference 'Cell::isVisited'.(ıÛìÔ
+L
+java:S2696."6Make the enclosing method "static" or remove this set.(¿¯­
+P	java:S139]"6Move this trailing comment on the previous empty line.(’ÅÀêøÿÿÿÿ

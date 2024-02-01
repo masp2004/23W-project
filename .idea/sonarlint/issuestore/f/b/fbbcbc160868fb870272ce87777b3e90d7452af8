@@ -1,0 +1,27 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(÷›Œõ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÃÚ¤R
+C
+java:S1604"(Make this anonymous inner class a lambda(ŒÄ¬Áûÿÿÿÿ
+A
+java:S1659"&Declare "current2" on a separate line.(¸úâ¹ùÿÿÿÿ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(÷›Œõ
+e
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÃÚ¤R
+e
+java:S1149e"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(·æÏ
+Q
+java:S2696#"6Make the enclosing method "static" or remove this set.(ÄŠ³ıÿÿÿÿ
+U	java:S1265";"if ... else if" constructs should end with "else" clauses.(ıÿÖòûÿÿÿÿ
+J
+java:S22218"4Catch a list of specific exception subtypes instead.(”ı¾
+U	java:S126D";"if ... else if" constructs should end with "else" clauses.(œåÿÂıÿÿÿÿ
+J
+java:S2221G"4Catch a list of specific exception subtypes instead.(”ı¾
+J
+java:S2221i"4Catch a list of specific exception subtypes instead.(”ı¾
+J
+java:S2221u"4Catch a list of specific exception subtypes instead.(”ı¾
